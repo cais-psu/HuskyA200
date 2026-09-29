@@ -1,0 +1,11 @@
+network:
+ version: 2
+ renderer: networkd
+ wifis:
+   wlp2s0:
+     optional: true
+     dhcp4: true
+     dhcp-identifier: mac
+     access-points:
+       "psu-iot":
+         password: "y2nfu9jih82q"
